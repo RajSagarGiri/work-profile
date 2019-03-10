@@ -1,6 +1,10 @@
+.work{
+        margin-top: 20px;
+        border: 1px solid rgb(221, 221, 221);
+}
+
 .work-skill{
     display:flex;
-    background-color: #fff;
     width: 1168px;
     margin: 18px 55px 15px 65px;
 }
@@ -14,14 +18,17 @@
 .work-card{
     display: flex;
     height: auto;
-    margin: 50px;
     text-align: left;
     color: #4a4a4a;
+    width: 664px;
+    padding: 15px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(221, 221, 221);
 }
 
 .detail-s>h5{
     margin-top: 0;
-    margin-bottom: 12.5px;
+    margin-bottom: 7px;
 }
 
 .sk{
@@ -47,4 +54,16 @@
 
 .designation{
     font-size: 16px;
+}
+
+.duration, .location{
+    font-size: 12px;
+    font-weight: 400;
+    color: #959595;
+}
+
+
+.work-edu> h3{
+    text-align: left;
+    margin-top: -3px;
 }
