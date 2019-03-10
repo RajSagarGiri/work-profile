@@ -1,0 +1,22 @@
+.skill-con{
+     display: flex;
+     font-size: 12px;
+     height:31px;
+     margin-top: 10px;
+     margin-right: 20px;
+     background-color: #f7f2f2;
+     border-radius: 20px;
+}
+
+.bubble{
+     background-color: #d86d00;
+     height: 29px;
+     width: 29px;
+     border-radius: 100%;
+     cursor: pointer; 
+}
+
+
+.tskill{
+     padding: 10px 12.5px 12.5px 12.5px;
+}

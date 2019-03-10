@@ -1,0 +1,11 @@
+.header{
+    height: 60px;
+    border-bottom: 1.5px solid rgb(221, 221, 221);
+    background: white;
+}
+
+.header>img{
+    height: 33px;
+    float: left;
+    margin: 1.1vw 0 0 48px;
+}

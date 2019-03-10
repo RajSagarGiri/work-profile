@@ -1,0 +1,133 @@
+.intro{
+    height: 404px;
+    padding: 10px;
+  margin: 18px 55px 15px 55px;
+}
+
+.pp{
+    height: 200px;
+    width: 200px;
+}
+
+.p-det, .skill{
+    display: flex;
+    text-align: left;
+}
+
+.info{
+    padding-left: 12.5px;
+     height: 199px;
+     width: 955px;
+    box-shadow: 1.5px 1.5px 0.25px #dbdbdb;
+    border-radius: 4px 4px 4px 0;
+}
+
+.uname{
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 5px;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 500;
+    color: #babdc1;
+    margin-top: 0;
+    margin-bottom: 7.5px;
+}
+
+.url{
+        font-size: 13px;
+        color: #808080;
+        height: 16px;
+        margin-top: 32.5px;
+        background-color: #f7f4f4;
+        margin-bottom: 5px;
+        display: flex;
+        font-weight: 350;
+}
+
+.msg{
+    float: right;
+    border: 1.25px #004fc1 solid;
+    height: 16px;
+    width: 85px;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 15px;
+    color: #004fc1;
+    border-radius: 5.5%;
+}
+
+.msg:hover{
+    background-color: #004fc1;
+    color: white;
+}
+
+.url>div>img{
+    height: 11px;
+    margin-left: 9px;
+    cursor: pointer;
+}
+
+.end-sec{
+     height: 50px;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 17px;
+    width: 1127.5px;
+    box-shadow: 1.5px 1.5px 0.25px #dbdbdb;
+    border-radius: 4px;
+}
+
+.endorse{
+    display: flex;
+    margin-top: 5px;
+}
+
+.stats{
+    height: 60px;
+    float: right;
+    margin-top: -5px;
+}
+
+
+.ver, .end{
+    height: 16px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5%;
+    font-size: 14px;
+}
+
+
+.ver, .end:hover{
+    background-color: #004fc1;
+    color: white;
+    border: 1.25px #004fc1 solid;
+}
+
+
+.end, .ver:hover{
+    color: #004fc1;
+    background-color: white;
+    border: 1.25px #004fc1 solid;
+}
+
+
+.about-me{
+    background-color: white;
+    height: 25px;
+    width: 1127.5px;
+    margin-top: 15px;
+    font-size: 22px;
+    font-style: italic;
+    padding: 20.5px;
+}
