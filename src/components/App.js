@@ -25,7 +25,15 @@ getWork = async () =>{
 }
 
 
+getEd= async () =>{
+  const call = await fetch('https://springrole.com/api/v1/user/c4f4c607-e9c8-4acb-9893-93c541bddf35/education');
+  const data = await call.json();
+  this.setState({edu: data.educationList});
+}
+
+
 componentDidMount(){
+  this.getEd();
   this.getSkill();
   this.getWork();
 }
@@ -36,7 +44,7 @@ componentDidMount(){
       <Header/>
       {this.state.skill && <div>
         <Intro data={this.state.skill}/>
-       {this.state.work && <Body work = {this.state.work}/>}
+       {this.state.work && this.state.edu && <Body work = {this.state.work} ed ={this.state.edu} skill={this.state.skill}/>}
       </div>}
       </div>
     );
