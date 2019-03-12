@@ -42,12 +42,12 @@
 }
 
 .right-det{
-    width: 513px;
+    width: 490px;
     padding-left: 30px;
 }
 
 .company-name{
-    font-size: 12px;
+    font-size: 12.75px;
     font-weight: 400;
     letter-spacing: -0.1px;
 }
@@ -57,7 +57,7 @@
 }
 
 .duration, .location{
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 400;
     color: #959595;
 }
@@ -80,7 +80,7 @@
 }
 
 .div-img{
-    padding: 5px;
+    padding: 7.5px 5px 7.5px 15px;
     background-color: silver;
     height: 65px;
     width: 70px;
@@ -96,3 +96,68 @@
     border-bottom: 1px solid rgb(221, 221, 221);
     background-color: #fff;
 }
+
+
+.w-skill{
+    width: 350px;
+}
+
+.level{
+    height: 72.5px;
+    width: 350px;
+}
+
+.skill-banner{
+    height: 90px;
+    width: 350px;
+}
+
+.work-details>h5{
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #959595;
+}
+
+.institute{
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.dep{
+    font-size: 12.5px;
+    color: #959595;
+    font-weight: 500;
+}
+
+.ed-det{
+    margin-left: 30px;
+    margin-top: -12.5px;
+}
+
+
+
+
+.verified>img{
+    height: 90px;
+    width: 150px;
+}
+
+
+.w-skill>h3{
+    text-align: left;
+    margin-top: 0;
+}
+
+.w-skill{
+    margin-left: 20px;
+}
+
+
+.skillname>h1{
+    font-size: 18px;
+    color: #4a4a4a;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+}
+
+

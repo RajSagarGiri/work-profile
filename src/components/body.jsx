@@ -29,8 +29,11 @@ class Body extends React.Component{
             </div>
             <div className='w-skill'>
                 <h3>Skills</h3>
-                <div></div>
+                <div className='.skill-card-sec' style={{backgroundColor: 'white',  boxShadow: '1.5px 1.5px 0.25px #dbdbdb',
+    borderRadius: '4px'}}>
+                <img src='./images/hd.png' alt='heading' className='skill-banner'/>
                 {acc}
+                </div>
             </div>
         </div>
         )
